@@ -57,16 +57,3 @@ Run the development server:
 bash
 npm run dev
 Open http://localhost:3000 in your browser.
-
-🏗️ Project Structure
-/ngo-impact-tracker
-├── app/
-│   ├── api/               # API routes
-│   │   ├── report/        # Report submission endpoint
-│   │   └── dashboard/     # Dashboard data endpoint
-│   ├── admin/             # Admin dashboard
-│   └── page.tsx           # Report submission form
-├── lib/                   # Utility functions
-│   └── mongodb.ts         # MongoDB connection
-├── public/                # Static assets
-└── types/                 # TypeScript types
